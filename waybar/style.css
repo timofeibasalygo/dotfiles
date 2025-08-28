@@ -5,10 +5,11 @@
     font-weight: bold;
     font-size: 14px;
     min-height: 0;
+    background: transparent;
 }
 
 window#waybar {
-    background: rgba(21, 18, 27, 0);
+    background-color: rgba(28, 28, 30, 0.50);
     color: #cdd6f4;
 }
 
@@ -50,7 +51,7 @@ window#waybar {
 #workspaces,
 #tray,
 #backlight {
-    background: #1e1e2e;
+    background-color: rgba(28, 28, 30, 0);
     padding: 0px 10px;
     margin: 3px 0px;
     margin-top: 5px;
@@ -67,7 +68,7 @@ window#waybar {
 }
 
 #workspaces {
-    background: #1e1e2e;
+    background: rgba(28, 28, 30, 0);
     border-radius: 10px;
     margin-left: 10px;
     padding-right: 0px;
