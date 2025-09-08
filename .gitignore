@@ -1,0 +1,63 @@
+# Временные файлы редакторов
+*.swp
+*.swo
+*~
+.netrwhist
+tags
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.cache
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Fish shell специфичные файлы (персональные настройки)
+.config/fish/fish_variables
+.config/fish/fishd.*
+**/fish_variables
+
+# Персональные данные и секреты
+*.key
+*.pem
+*.p12
+*.pfx
+*password*
+*secret*
+*token*
+.env
+.env.local
+
+# Кэш и зависимости
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE/Editor специфичные файлы
+.vscode/
+.idea/
+*.sublime-*
+
+# Backup файлы
+*.bak
+*.backup
+*.orig
+
+# Compiled files
+*.o
+*.so
+*.dylib
+*.exe
+
+# Symlink targets (если используете абсолютные пути)
+# Раскомментируйте если нужно:
+# .config/fish/fish
+
+# Сломанные символические ссылки
+**/*broken*
+**/.*broken*
