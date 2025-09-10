@@ -1,0 +1,32 @@
+/* Стили прозрачности для терминалов и приложений */
+
+/* Kitty terminal */
+window.background.kitty,
+window.kitty {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* GNOME Terminal */
+window.background.gnome-terminal,
+window.gnome-terminal {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* VS Code */
+window.background.code,
+window.code {
+    background-color: rgba(30, 30, 30, 0.9);
+}
+
+/* Nautilus */
+window.background.nautilus,
+window.nautilus {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Общие утилиты */
+window.pavucontrol,
+window.blueman-manager,
+window.nm-connection-editor {
+    background-color: rgba(255, 255, 255, 0.9);
+}
