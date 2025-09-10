@@ -1,5 +1,2 @@
 [General]
-theme=KvGnomeDark
-
-[Applications]
-catppuccin-mocha-red=dolphin, firefox
+theme=KvGnome
