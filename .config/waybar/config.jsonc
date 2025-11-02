@@ -15,12 +15,19 @@
         "tray",
         "memory",
         "cpu",
+	"hyprland/language",
         "network",
         "battery",
         "backlight",
         "pulseaudio",
         "pulseaudio#microphone"
     ],
+
+    "hyprland/language": {
+      "format": "{}",
+      "format-en": "US",
+      "format-ru": "RU"
+    },
 
     "hyprland/window": {
         "format": "󰣇 {}"
