@@ -50,21 +50,20 @@ window#waybar {
 #memory,
 #workspaces,
 #tray,
-#backlight {
+#backlight,
+#language {
     background-color: rgba(28, 28, 30, 0);
     padding: 0px 10px;
-    margin: 3px 0px;
-    margin-top: 5px;
+    margin: 5px 5px 3px 5px;
     /* border: 1px solid #181825; */
 }
 
 #backlight {
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
 }
 
 #tray {
     border-radius: 10px;
-    margin-right: 10px;
 }
 
 #workspaces {
@@ -76,12 +75,15 @@ window#waybar {
 }
 
 #cpu {
-    border-radius: 0px 10px 10px 0px;
-    margin-right: 10px;
+    border-radius: 10px;
 }
 
 #memory {
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
+}
+
+#language {
+    border-radius: 10px;
 }
 
 #window {
@@ -99,26 +101,20 @@ window#waybar {
 
 #network {
     color:  #a6adc8;
-    border-radius: 10px 0px 0px 10px;
-
+    border-radius: 10px;
 }
 
 #pulseaudio {
     color: #a6adc8;
-    border-left: 0px;
-    border-right: 0px;
+    border-radius: 10px;
 }
 
 #pulseaudio.microphone {
     color: #a6adc8;
-    border-radius: 0px 10px 10px 0px;
-    border-left: 0px;
-    border-right: 0px;
-    margin-right: 5px;
+    border-radius: 10px;
 }
 
 #battery {
     color:#a6adc8;
-    border-radius: 0px 10px 10px 0px;
-    margin-right: 10px;
+    border-radius: 10px;
 }
