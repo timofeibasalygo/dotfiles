@@ -12,11 +12,11 @@
     ],
     "modules-center": ["hyprland/window"],
     "modules-right": [
-        "tray",
         "memory",
         "cpu",
-	"hyprland/language",
+	    "hyprland/language",
         "network",
+        "tray",
         "battery",
         "backlight",
         "pulseaudio",
