@@ -14,7 +14,7 @@
     "modules-right": [
         "memory",
         "cpu",
-	    "hyprland/language",
+	"hyprland/language",
         "network",
         "tray",
         "battery",
@@ -30,7 +30,7 @@
     },
 
     "hyprland/window": {
-        "format": "󰣇 {}"
+        "format": "󰣇"
     },
     
     "hyprland/workspaces": {
