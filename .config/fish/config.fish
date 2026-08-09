@@ -29,3 +29,6 @@ end
 if set -q VSCODE_INJECTION
     functions -e __fish_vscode_postexec
 end
+
+# Created by `pipx` on 2026-04-06 02:49:03
+set PATH $PATH /home/akia/.local/bin
