@@ -3,6 +3,7 @@
 
 # Displayed by default
 PROMPT='%m %~ %# '
+# MANGOHUD=1
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
